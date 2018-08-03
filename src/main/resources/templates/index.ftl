@@ -57,13 +57,7 @@
 
     <footer class="main-footer bg-dark text-white" style="position:fixed;height:32px;width:100%;bottom:0;">
 
-            <p>Cliente SOAP - Ricardo y Emilio &copy; 2018 </p>
+            <p>Cliente REST - Ricardo y Emilio &copy; 2018 </p>
        </footer>
-<br>
-<body class="bg-light">
-<div class="container" >
-
-
-<br>
-</body>
+<br></body>
 </html>

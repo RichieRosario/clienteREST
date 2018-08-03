@@ -170,6 +170,7 @@ public class Main{
                         .header("Content-Type","application/json")
                         .body(n.toJson(nuevo))
                         .asJson();
+                System.out.println(jsonResponse.getBody());
                 response.redirect("/");
             }
             else{
@@ -188,6 +189,7 @@ public class Main{
                         .body(n.toJson(nuevo))
                         .asJson();
 
+                System.out.println(jsonResponse.getBody());
                 response.redirect("/");
 
             }

@@ -9,7 +9,7 @@ public class PostService {
 
     private String user;
 
-    private String tag;
+    private String etiqueta;
 
     public void setFoto(String foto){
         this.foto = foto;
@@ -38,11 +38,11 @@ public class PostService {
     }
 
     public void setTag(String etiqueta){
-        this.tag = etiqueta;
+        this.etiqueta = etiqueta;
     }
 
 
     public String getTag(){
-        return tag;
+        return etiqueta;
     }
 }
